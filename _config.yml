@@ -10,7 +10,12 @@ languages:
       [
         { name: "Bienvenue", sidebar_name: "welcome", url: "/fr/index.html" },
 	    { name: "Installation", sidebar_name: "installation", url: "/fr/documentation/installation.html" },
-	    { name: "Configuration", sidebar_name: "configuration", url: "/fr/documentation/configuration.html" }
+	    { name: "Configuration", sidebar_name: "configuration", url: "/fr/documentation/configuration.html" },
+	    { name: "Tutoriels", sidebar_name: "tutorials", subsections:
+          [
+            { name: "Moteur de recherche multicritères", sidebar_name: "advanced_search", url: "/fr/documentation/tutoriels/moteur-de-recherche-multicriteres.html" }
+          ]
+        }
       ]
     }
   - {
